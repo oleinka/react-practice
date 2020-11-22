@@ -9,7 +9,7 @@ const ButtonIcon = styled.button`
   background-position: 50% 50%;
   background-size: 40%;
   border: none;
-  background-color: transparent;
+  background-color: ${({ theme }) => theme.grey300};
 `;
 
 export default ButtonIcon;

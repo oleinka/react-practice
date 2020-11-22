@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import Button from 'components/atoms/Button/Button';
 import GlobalStyle from 'theme/GlobalStyle';
 import { theme } from 'theme/mainTheme';
+import pen from 'assets/icons/pen.svg';
 import Input from '../../components/atoms/Input/Input';
 import ButtonIcon from '../../components/atoms/ButtonIcon/ButtonIcon';
 
@@ -16,7 +17,7 @@ const Root = () => (
         <Button>close / save</Button>
         <Button secondary>remove</Button>
         <Input placeholder="login" search />
-        <ButtonIcon />
+        <ButtonIcon icon={pen} />
       </>
     </ThemeProvider>
   </>
